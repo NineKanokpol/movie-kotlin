@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../../layout/custom_preview.xml" value="0.12859712230215828" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/drawable-anydpi/ic_down.xml" value="0.2415" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/drawable-anydpi/ic_down_arrow.xml" value="0.175" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/drawable-anydpi/ic_home_blue.xml" value="0.1335" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/drawable-anydpi/ic_star.xml" value="0.1" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/drawable-anydpi/ic_up.xml" value="0.127" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/drawable/button_circle.xml" value="0.2415" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/drawable/button_keyword_tran.xml" value="0.225" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/drawable/button_transparent.xml" value="0.2415" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/drawable/circle.xml" value="0.2415" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/drawable/divider.xml" value="0.186" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.175" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/drawable/ic_face.xml" value="0.2365" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/drawable/ic_home_blue.xml" value="0.1335" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/drawable/ic_home_light.xml" value="0.1" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2415" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.2205" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/drawable/ic_list_light.xml" value="0.1" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/drawable/star.xml" value="0.149" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/layout/activity_after_login.xml" value="0.21348314606741572" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/layout/activity_card_view.xml" value="0.26992753623188404" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/layout/activity_casts_movie_detail.xml" value="0.33" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/layout/activity_full_movie.xml" value="0.25" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/layout/activity_movie_detail.xml" value="0.25" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/layout/activity_start_screen.xml" value="0.5" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/layout/activity_test_db.xml" value="0.18034447821681865" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/layout/activity_test_scorll_to_bottom.xml" value="0.36666666666666664" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/layout/activity_test_search.xml" value="0.29545454545454547" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/layout/activity_viewmore_movie.xml" value="0.26590909090909093" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/layout/appbar.xml" value="0.36666666666666664" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/layout/card_view_recycle.xml" value="0.2324159021406728" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/layout/cardview_detail.xml" value="0.327445652173913" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/layout/cardview_reviews.xml" value="0.30409356725146197" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/layout/fragment_home.xml" value="0.18034447821681865" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/layout/fragment_list.xml" value="0.25" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/layout/fragment_news.xml" value="0.18034447821681865" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/layout/home_icon.xml" value="0.9" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/layout/item_home_fragment.xml" value="0.35104166666666664" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/layout/item_key_words.xml" value="0.35260416666666666" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/layout/item_recent.xml" value="0.21288515406162464" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/layout/item_view_video.xml" value="0.36666666666666664" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/layout/list_search_view.xml" value="0.327445652173913" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/layout/navbar_movie.xml" value="0.25" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/layout/navigation_herader.xml" value="0.26992753623188404" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/layout/recycle_search_view.xml" value="0.29545454545454547" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/layout/recycle_view_casts.xml" value="0.33" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/layout/recycle_view_credits.xml" value="0.365625" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/layout/recycle_view_tag.xml" value="0.36666666666666664" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/layout/recycle_view_video.xml" value="0.36666666666666664" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/layout/test.xml" value="0.365625" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/layout/test_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/menu/custom_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2205" />
+        <entry key="..\:/inet/KotlinTest/TestAppDevAndroid/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2205" />
+        <entry key="..\:/inet/TestAppDevAndroid/app/src/main/res/layout/activity_main.xml" value="0.3509963768115942" />
+        <entry key="app/src/main/res/layout/activity_after_login.xml" value="0.20652173913043478" />
+        <entry key="app/src/main/res/layout/activity_casts_movie_detail.xml" value="0.20652173913043478" />
+        <entry key="app/src/main/res/layout/activity_full_movie.xml" value="0.20652173913043478" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.20652173913043478" />
+        <entry key="app/src/main/res/layout/activity_viewmore_movie.xml" value="0.20652173913043478" />
+        <entry key="app/src/main/res/layout/appbar.xml" value="0.20652173913043478" />
+        <entry key="app/src/main/res/layout/card_view_recycle.xml" value="0.20652173913043478" />
+        <entry key="app/src/main/res/layout/cardview_reviews.xml" value="0.20652173913043478" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.20652173913043478" />
+        <entry key="app/src/main/res/layout/home_icon.xml" value="0.20652173913043478" />
+        <entry key="app/src/main/res/layout/item_home_fragment.xml" value="0.20652173913043478" />
+        <entry key="app/src/main/res/layout/item_key_words.xml" value="0.20652173913043478" />
+        <entry key="app/src/main/res/layout/item_recent.xml" value="0.20652173913043478" />
+        <entry key="app/src/main/res/layout/item_view_video.xml" value="0.20652173913043478" />
+        <entry key="app/src/main/res/layout/navbar_movie.xml" value="0.20652173913043478" />
+        <entry key="app/src/main/res/layout/recycle_search_view.xml" value="0.20652173913043478" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_black"
+    android:orientation="vertical"
+    tools:context=".DetailMov.DetailMovie">
+
+
+
+
+        <include layout="@layout/navbar_movie" />
+
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/bg_movie_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    android:background="@drawable/circle"
+                    android:layout_margin="10dp">
+
+
+
+                    <!--                <ImageView-->
+                    <!--                    android:id="@+id/image_bg"-->
+                    <!--                    android:alpha="0.4"-->
+                    <!--                    android:layout_width="match_parent"-->
+                    <!--                    android:layout_height="match_parent"-->
+                    <!--                    android:background="@drawable/bg_detail" />-->
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/bg_api"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="700dp"-->
+<!--                        android:layout_marginHorizontal="10dp"-->
+<!--                        android:layout_marginVertical="10dp"-->
+<!--                        android:alpha="0.4"-->
+<!--                        android:scaleType="centerCrop"/>-->
+
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="visible">
+
+                        <!--                    <androidx.recyclerview.widget.RecyclerView-->
+                        <!--                        android:id="@+id/image_detail"-->
+                        <!--                        android:layout_width="wrap_content"-->
+                        <!--                        android:layout_height="wrap_content"-->
+                        <!--                        android:visibility="gone"-->
+                        <!--                        tools:listitem="@layout/cardview_detail" />-->
+
+                        <ImageView
+                            android:id="@+id/image_view_each"
+                            android:layout_width="match_parent"
+                            android:layout_height="500dp"
+                            android:layout_margin="30dp"
+                            android:background="@drawable/bg"
+                            android:scaleType="fitXY" />
+
+                        <TextView
+                            android:id="@+id/text_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="10dp"
+                            android:text="Title"
+                            android:textColor="@color/white"
+                            android:textSize="30dp" />
+
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+
+                            <ImageView
+                                android:id="@+id/star_rate"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:src="@drawable/ic_star"
+                                app:tint="@color/yellow_dark" />
+
+                            <TextView
+                                android:id="@+id/rate_detail"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="3dp"
+                                android:text="@string/Rate"
+                                android:textColor="@color/white" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:src="@drawable/ic_clock"
+                                app:tint="@color/purple_700" />
+
+                            <TextView
+                                android:id="@+id/time_detail"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="3dp"
+                                android:text="2h 6m"
+                                android:textColor="@color/white" />
+
+
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:text="Overview"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/content_movie"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginBottom="10dp"
+                            android:text="content"
+                            android:textColor="@color/white" />
+
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_facebook"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:text="facebook"
+                            android:visibility="gone" />
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/recycle_view_list"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginBottom="10dp"
+                            tools:listitem="@layout/recycle_view_tag" />
+
+
+                        <!--                        <androidx.recyclerview.widget.RecyclerView-->
+                        <!--                            android:layout_marginLeft="20dp"-->
+                        <!--                            android:layout_width="wrap_content"-->
+                        <!--                            android:layout_height="wrap_content"-->
+                        <!--                            tools:listitem="@layout/recycle_view_casts" />-->
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" />
+
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                </RelativeLayout>
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/circle">
+
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="8dp"
+                        android:text="Original Title"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/original_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:text="originalTitle"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginTop="30dp"
+                        android:text="Spoken Languages"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/lang_spk"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/languages"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginTop="30dp"
+                        android:text="Release Date"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/date_re"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Date"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginTop="30dp"
+                        android:text="Status"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/status_re"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginTop="5dp"
+                        android:text="release"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginTop="30dp"
+                        android:text="Budget"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/budget"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginTop="5dp"
+                        android:text="BudgetS"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginTop="30dp"
+                        android:text="Revenue"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/revenue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginTop="5dp"
+                        android:text="revenueS"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/link_facebook"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:padding="7.5dp"
+                            android:src="@drawable/ic_facebook"
+                            app:tint="@color/white" />
+
+                        <ImageView
+                            android:id="@+id/link_instragram"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/ic_icons_insragram" />
+
+                        <ImageView
+                            android:id="@+id/link_twitter"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:padding="7.5dp"
+                            android:src="@drawable/ic_twitter" />
+
+                        <ImageView
+                            android:id="@+id/link_website"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:padding="7.5dp"
+                            android:src="@drawable/ic_website"
+                            app:tint="@color/white" />
+
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Keywords"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginTop="5dp" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recycle_view_key_words"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:listitem="@layout/item_key_words"/>
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="25dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginBottom="3dp"
+                            android:text="Casts"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/btn_detail_casts"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:text="@string/view_more"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="5dp"
+                        android:background="@android:color/white" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/card_view_casts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        tools:listitem="@layout/recycle_view_casts" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="25dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginBottom="3dp"
+                            android:text="Crews"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/btn_detail_crews"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:text="@string/view_more"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="5dp"
+                        android:background="@android:color/white" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/card_view_crews"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        tools:listitem="@layout/recycle_view_casts" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="25dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginBottom="3dp"
+                            android:text="Videos"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:text="@string/view_more"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="5dp"
+                        android:background="@android:color/white" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/card_view_movie"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:listitem="@layout/item_view_video" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="25dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginBottom="3dp"
+                            android:text="Reviews"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:text="@string/view_more"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="5dp"
+                        android:background="@android:color/white" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recycle_review"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:listitem="@layout/cardview_reviews" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="25dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginBottom="3dp"
+                            android:text="RecentMovies"
+                            android:textColor="@color/white"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentBottom="true"
+                            android:text="@string/view_more"
+                            android:textStyle="bold" />
+
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="5dp"
+                        android:background="@android:color/white" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recycle_view_recent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:listitem="@layout/item_recent" />
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            </RelativeLayout>
+
+
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </ScrollView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

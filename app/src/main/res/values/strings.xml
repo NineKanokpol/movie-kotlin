@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MovieApp</string>
+    <string name="Username">Email.com</string>
+    <string name="Alert">Not Complete!</string>
+    <string name="contenting">Please wait</string>
+    <string name="Rate">Rate</string>
+    <string name="title">Title</string>
+    <string name="languages">Languages</string>
+    <string name="view_more"><![CDATA[View More >>>]]></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="namereviews">nameReviews</string>
+    <string name="date">Date</string>
+    <string name="content">Content</string>
+</resources>
